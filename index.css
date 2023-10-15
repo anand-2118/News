@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Poppins",sans-serif;
+    background-color: whitesmoke;
+  }
+
+  p{
+    font-family: "Roboto";
+    line-height: 1.4rem;
+  }
+
+.flex{
+
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.container{
+    max-width: 100%;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+.main-nav{
+    justify-content: space-between;
+    padding: 8px 0;
+    background-color: black;
+}
+
+.company-logo img{
+    width: 60px;
+}
+
+nav{
+    max-height: 200px;
+}
+
+.nav-link{
+    color: brown;
+}
+
+.company-logo{
+    padding-left: 25px;
+}
+
+.search-bar{
+    padding-right: 30px;
+}
+
+.input{
+    border-radius: 4px;
+    padding: 5px 9px;
+    font-family: sans-serif    
+}
+
+.search-button{
+    padding: 3px 5px;
+    background-color: #fd6fff;
+    border-radius: 4px;
+    
+}
+
+main{
+    padding-left: 40px;
+    margin: 60px;
+}
+
+.card-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: start;
+}
+
+.card{
+    max-width: 360px;
+    height: 400px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color:#f9fdff;
+    transform: translateY(-7px);
+}
+
+.card-header img{
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 13px;
+}
